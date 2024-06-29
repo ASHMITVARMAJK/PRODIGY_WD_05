@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(54, 54, 185, 0.607);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.weather-app-box{
+    background-color: white;
+    align-self: center;
+    width: 250px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px
+    ;   
+}
+.search-box-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+.search-box-section input{
+    margin-top: 10px;
+    border: none;
+    border-radius: 18px;
+    background-color:rgb(211, 244, 254);
+    text-align: center;
+}
+.search-box-section button{
+    margin-top: 10px;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color:rgb(211, 244, 254);
+}
+.weather-info {
+    display: none;
+   padding: 5px;
+}
+.city-name{
+    display: flex;
+    justify-content: center;
+}
+.weather-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weather-image img{
+    align-self:center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.weather-image p{
+    text-align: center;
+    margin: 2px;
+    font-size: 25px;
+}
+.temp{
+    font-size: 25px;
+    margin-right: 0px;
+}
+.weather-image sup{
+    text-align: center;
+
+}
+
+.hw{
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.humidity, .wind  {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 0px;
+    margin-bottom: 10px;
+}
+
+.wind-d{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    margin:3px
+}
+.wind-d p{
+    margin: 2px
+}
+.wind i{
+    font-size: 20px;
+    margin: 3px;
+}
+
+.humidity i{
+    font-size :20px ;
+}
+.location-not-found{
+    display: none;
+    justify-content: center;
+}
+.location-not-found img{
+    height: 150px;
+    width: 215px;
+}
+.location-not-found h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.location-not-found p{
+    font-size: 25px;
+    text-align: center;
+}
