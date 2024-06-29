@@ -51,9 +51,6 @@ async function checkweather(city) {
         case 'Snow':
             weather_img.src = "snow.png";
             break;
-        default:
-            weather_img.src = "default.png";
-            break;
     }
 }
 
